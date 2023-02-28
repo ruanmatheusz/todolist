@@ -1,0 +1,295 @@
+.cointeiner-fluid {
+    padding: 0;
+}
+
+.cointeiner-fluid .row {
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* Dashboard */
+
+.dashboard {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 180px;
+    width: 100%;
+    display: block;
+}
+
+.dashboard h4 {
+    font-size: 20px;
+}
+
+.dashboard span {
+    font-size: 40px;
+    display: block;
+    width: 100%;
+}
+
+.dashboard-box {
+    float: left;
+    background-color: #DFDFDF;
+    color: #FFF;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 130px;
+    width: 32%;
+    text-align: center;
+}
+
+.dashboard-box:nth-child(2) {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+#dashboard-lastdays {
+    background-color: #13c43f;
+    cursor: pointer;
+    border-radius: 67px;
+    transition-delay: 100ms;
+    transition-duration: 600ms;
+}
+
+#dashboard-lastdays:hover {
+    background-color: #024412;
+    border-radius: 20px;
+}
+
+#dashboard-done {
+    background-color: #3476e2;
+    cursor: pointer;
+    border-radius: 67px;
+    transition-delay: 100ms;
+    transition-duration: 600ms;
+}
+
+#dashboard-done:hover {
+    background-color: #023485e1;
+    animation: normal;
+    border-radius: 20px;
+}
+
+#dashboard-doing {
+    background-color: #db1e1e;
+    cursor: pointer;
+    border-radius: 67px;
+    transition-delay: 100ms;
+    transition-duration: 600ms;
+}
+
+#dashboard-doing:hover {
+    background-color: #af0000;
+    border-radius: 20px;
+}
+
+
+
+
+/*  Botão de adicionar*/
+
+#add-link {
+    text-decoration: none;
+}
+
+.add-div {
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    color:#FFF;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.add-div:hover {
+    background-color: #0244af;
+}
+
+.fa-solid.fa-plus {
+    color: #FFF;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Search */
+
+.fa-solid.fa-search {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+    cursor: pointer;
+}
+
+.fa-solid.fa-search:hover {
+    color: #7e7b7b;
+}
+
+.search-div {
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+/* Filter */
+
+.filter-div {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#filter {
+    display:inline-block;
+    width: 200px;
+    margin-left: 10px;
+}
+
+
+/* Lista de tarefas */
+
+.list-div {
+    padding: 0;
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.task-item {
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 15px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.task-item.done {
+    text-decoration:line-through;
+    opacity: 60%;
+    background-color: #8ab3f544;
+    border: 1px solid #0a0c1144;
+}
+
+.task-item span a {
+    text-decoration: none;
+}
+
+.fa-solid.fa-trash, .fa-solid.fa-edit, .fa-solid.fa-check {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.fa-solid.fa-trash {
+    color: #db1e1e;
+}
+
+.fa-solid.fa-trash:hover {
+    color: #910000;
+}
+
+.fa-solid.fa-edit {
+    color: #13c43f;
+}
+
+.fa-solid.fa-edit:hover {
+    color: #02631a;
+}
+
+.fa-solid.fa-check {
+    color: #CCCCCC;
+}
+
+.fa-solid.fa-check:hover {
+    color: #888585;
+}
+
+.done .fa-solid.fa-check {
+    color: #3476e2;
+}
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #333;
+    height: 300px;
+    border-top: 2px solid #202020;
+
+}
+
+footer p {
+    color: #f5f5f5;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+/* Messages */
+
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li {
+    list-style: none;
+}
+
+/*  Paginação */
+
+.pagination {
+    margin-bottom: 20px
+}
+
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step-links .current {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*  Login  */ 
+
+.auth-card {
+    margin-bottom: 30px;
+}
+
+.change-form-p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Adicionar Tarefa e Editar Tarefa */
+
+.btn.btn-success {
+    margin-bottom: 10px;
+}
